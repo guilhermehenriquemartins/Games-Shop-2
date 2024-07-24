@@ -132,6 +132,14 @@ input[type='submit']:hover {
   background-color: #314E9E;
 }
 
+form textarea {
+  resize: none;
+}
+
+form input:focus, textarea:focus {
+  outline-color: #182C61;
+}
+
 footer {
   padding: 16px 0px;
   background-color: #182C61;
